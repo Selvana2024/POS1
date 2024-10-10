@@ -1,0 +1,14 @@
+let tabsDiv = document.querySelector(".tabs");
+let oneProducts = document.querySelector(".oneProducts");
+let orderList = document.querySelector(".orderList");
+let CheckTotalDiv = document.querySelector(".CheckTotal");
+let search = document.querySelector(".search");
+let openCat = "HotDishes";
+renderProduct();
+openProducts(openCat);
+let dataArray = turnObjectToArray(data);
+loadSideReceiptFromLS();
+let Modal = document.querySelector(".Modal");
+let inside = document.querySelector(".inside ");
+let modalIndex = false;
+let contentIndex = false;
